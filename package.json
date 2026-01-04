@@ -1,0 +1,29 @@
+{
+  "name": "backup-database-mysql",
+  "version": "1.0.0",
+  "description": "Automatic SQL database backup with multiple storage options",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "backup": "node index.js"
+  },
+  "keywords": [
+    "sql",
+    "database",
+    "backup",
+    "automation"
+  ],
+  "author": "Nut.exe",
+  "license": "MIT",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "mysql2": "^3.6.5",
+    "pg": "^8.11.3",
+    "mssql": "^10.0.1",
+    "axios": "^1.6.2",
+    "fs-extra": "^11.2.0",
+    "form-data": "^4.0.0"
+  }
+}
+
